@@ -1,3 +1,5 @@
+uint32 MESSAGE_VERSION = 0
+
 uint64 timestamp
 
 # NOTE: At least one of course, airspeed_direction, or lateral_acceleration must be finite

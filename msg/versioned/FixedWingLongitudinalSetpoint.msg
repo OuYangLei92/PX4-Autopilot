@@ -1,3 +1,5 @@
+uint32 MESSAGE_VERSION = 0
+
 uint64 timestamp
 
 # Note: If not both pitch_direct and throttle_direct are finite, then either altitude or height_rate must be finite
