@@ -3,5 +3,5 @@
 
 uint64 timestamp                         # time since system start (microseconds)
 
-float32 lateral_acceleration_setpoint    # resultant lateral acceleration setpoint [m/s^2]
-float32 can_run_factor 	 	         # estimate of certainty of the correct functionality of the npfg roll setpoint in [0, 1]
+float32 lateral_acceleration_setpoint    # [m/s^2] [FRD] resultant lateral acceleration setpoint
+float32 can_run_factor 	 	         # [0, 1] estimate of certainty of the correct functionality of the npfg roll setpoint in
