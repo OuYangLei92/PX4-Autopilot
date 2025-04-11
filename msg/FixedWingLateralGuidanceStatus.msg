@@ -1,3 +1,6 @@
+# Fixed Wing Lateral Guidance Status message
+# Published by fw_pos_control module to report the resultant lateral setpoints and NPFG debug outputs
+
 uint64 timestamp                # time since system start (microseconds)
 
 float32 course_setpoint         # bearing angle (same as course) [rad]
